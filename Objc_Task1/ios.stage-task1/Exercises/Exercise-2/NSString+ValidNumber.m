@@ -3,7 +3,6 @@
 @implementation NSString (ValidNumber)
 
 - (BOOL)isValidNumber {
-    
     const char *array = [self UTF8String];
     BOOL containsDigits = false;
     
